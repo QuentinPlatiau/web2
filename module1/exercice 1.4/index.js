@@ -20,19 +20,19 @@ function showFromRedToGreenToRedWithDelays() {
     switchColorRed(delaysBetweenLightChanges*4);
 }
 
-function switchColorRed(delaysBetweenLightChange) {
+function switchLampRed(delaysBetweenLightChange) {
     window = setTimeout(() => {
         showRedLamp(); 
     }, delaysBetweenLightChange);
   }
 
-  function switchColoeOrange(delaysBetweenLightChange) {
+  function switchLampOrange(delaysBetweenLightChange) {
     window = setTimeout(() => {    
         showOrangeLamp();   
     }, delaysBetweenLightChange);
   }
 
-  function switchColorGreen(delaysBetweenLightChange) {
+  function switchLampGreen(delaysBetweenLightChange) {
     window = setTimeout(() => {
         showGreenLamp();   
     }, delaysBetweenLightChange);
@@ -58,12 +58,3 @@ function switchColorRed(delaysBetweenLightChange) {
     green.style.backgroundColor = "green";
     orange.style.backgroundColor = "white";
   }
-
-
-
-/*
-while(true){
-    timeoutID;
-    i++;
-}*/
-    
