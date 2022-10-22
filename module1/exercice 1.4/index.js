@@ -13,11 +13,11 @@ function cycleThroughLamps() {
 showFromRedToGreenToRedWithDelays();
 
 function showFromRedToGreenToRedWithDelays() {
-    switchColorRed();
-    switchColoeOrange(delaysBetweenLightChanges*1);
-    switchColorGreen(delaysBetweenLightChanges*2);    
-    switchColoeOrange(delaysBetweenLightChanges*3);    
-    switchColorRed(delaysBetweenLightChanges*4);
+    switchLampRed();
+    switchLampOrange(delaysBetweenLightChanges*1);
+    switchLampGreen(delaysBetweenLightChanges*2);    
+    switchLampOrange(delaysBetweenLightChanges*3);    
+    switchLampRed(delaysBetweenLightChanges*4);
 }
 
 function switchLampRed(delaysBetweenLightChange) {
